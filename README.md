@@ -1,4 +1,4 @@
-# ecommerce-website
+# Ecommerce Website
 This is a basic e-commerce website backend built with Spring Boot. It provides RESTful services to manage products, including adding, retrieving, and categorizing them.
 
 ***
