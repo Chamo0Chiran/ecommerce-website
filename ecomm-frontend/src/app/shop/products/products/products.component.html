@@ -1,0 +1,19 @@
+<div class="">
+  <div
+    class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center gap-y-10"
+  >
+    <ecom-product-card
+      *ngFor="let product of products"
+      [products]="product"
+    ></ecom-product-card>
+  </div>
+</div>
+
+<div
+  *ngIf="errorMessage"
+  class="font-bold text-5xl k min-h-screen flex justify-center items-center"
+>
+  <div class="error-message">
+    <div>{{ errorMessage }}</div>
+  </div>
+</div>
