@@ -6,7 +6,7 @@ This is a basic e-commerce website backend built with Spring Boot. It provides R
 ## Technologies
 A list of technologies used within the project:
 * Springboot (https://spring.io/projects/spring-boot): Version 3.3.5
-* Angular (https://angular.dev/): Version 18.2.7
+* Angular (https://angular.dev/cli): Version 18.2.7
 * MySQL (https://www.mysql.com/): Version 8.0
 
 ***
